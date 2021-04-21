@@ -3,3 +3,10 @@
 
 ## Things to remember
 When developping with apache (on ubuntu), put the files in /var/www/ 
+by default the localhost port for Apache2 is 80
+so you can look at it at http://localhost:80
+
+and you can use :
+`ngrok http 80
+` to display it on the internet through ngok (once you have installed ngok on your machine!)
+
